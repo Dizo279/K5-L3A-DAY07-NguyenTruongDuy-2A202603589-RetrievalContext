@@ -1,0 +1,32 @@
+[
+  {
+    "retriever": "Dense Retrieval (Baseline)",
+    "split": "dev",
+    "total_questions": 17,
+    "hit_at_1": "5/17 (29.4%)",
+    "hit_at_3": "7/17 (41.2%)",
+    "context_evidence_rate": "6/17 (35.3%)",
+    "total_time_seconds": 18.42,
+    "avg_latency_seconds": 1.084
+  },
+  {
+    "retriever": "Lexical Retrieval (BM25)",
+    "split": "dev",
+    "total_questions": 17,
+    "hit_at_1": "5/17 (29.4%)",
+    "hit_at_3": "7/17 (41.2%)",
+    "context_evidence_rate": "6/17 (35.3%)",
+    "total_time_seconds": 0.05,
+    "avg_latency_seconds": 0.003
+  },
+  {
+    "retriever": "Hybrid Retrieval (RRF)",
+    "split": "dev",
+    "total_questions": 17,
+    "hit_at_1": "5/17 (29.4%)",
+    "hit_at_3": "9/17 (52.9%)",
+    "context_evidence_rate": "6/17 (35.3%)",
+    "total_time_seconds": 17.59,
+    "avg_latency_seconds": 1.035
+  }
+]
