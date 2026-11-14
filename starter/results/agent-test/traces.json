@@ -1,0 +1,701 @@
+[
+  {
+    "question": "What happened to refined oil product flows despite crude oil exports being close to preconflict volumes?",
+    "status": "answered",
+    "answer": "Flows of refined oil products from the region have remained depressed, at less than half of preconflict levels in September, due to damage to refineries [cmo-october-2026-p9-fixed-0001]. A recovery in the global production of refined products is expected to lag, with refinery throughput anticipated to recover to preconflict levels around mid-2027 as repairs to refineries and export facilities progress in the Middle East and Russia, and refining capacity expands elsewhere [cmo-october-2026-p13-fixed-0003].",
+    "citations": [
+      "cmo-october-2026-p9-fixed-0001",
+      "cmo-october-2026-p13-fixed-0003"
+    ],
+    "all_cited": [
+      "cmo-october-2026-p9-fixed-0001",
+      "cmo-october-2026-p13-fixed-0003"
+    ],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p9-fixed-0001",
+        "chunk_id": "cmo-october-2026-p9-fixed-0001",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 9,
+        "text": ". Nonetheless, flows of\nrefined oil products from the region have\nremained depressed amid damage to refineries, at\nless than half of preconflict levels in September.\nMeanwhile attacks on Saudi Arabia’s East-West\nPipeline and threats to shipping in the Red Sea\nhighlight the potential vulnerability of alternative\nexport routes for crude oil that helped to attenuate\ndisruptions this year. After dipping in August,\nglobal oil production picked up in September but\nstill fell short of global consumptio",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 9
+        },
+        "score": 0.03200204813108039,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p13-fixed-0003",
+        "chunk_id": "cmo-october-2026-p13-fixed-0003",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 13,
+        "text": "ain effective, allowing shipments to\ncontinue gradually building. A recovery in the\nglobal production of refined products is likely to\nlag. Refinery throughput is anticipated to recover\nto preconflict levels around mid−2027, as repairs\nto refineries and export facilities progress in the\nMiddle East and Russia, and refining capacity\nexpands elsewhere. On this basis, absent additional\nlasting damage to oil infrastructure, global oil\nproduction is projected at about 106 mb/d in\n2027, returning the ",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 13
+        },
+        "score": 0.031754032258064516,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p11-fixed-0007",
+        "chunk_id": "cmo-october-2026-p11-fixed-0007",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 11,
+        "text": "d refined product\nprices\nSources: Bloomberg; National Oceanic and Atmospheric Administration (NOAA); World Bank.\nA. Daily data through October 14, 2026. U.S. gasoline is represented by RBOB (Reformulated\nBlendstock for Oxygenate Blending) gasoline front-month futures. Diesel (Europe) is Low Sulphur\nGasoil front-month futures. Jet fuel (Asia) is the Singapore jet fuel free-on-board spot price.\nB. Refining spread is the 3-2-1 crack spread comparing Brent crude to Nymex product prices,\nassuming a r",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 11
+        },
+        "score": 0.030309988518943745,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p16-fixed-0003",
+        "chunk_id": "cmo-october-2026-p16-fixed-0003",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 16,
+        "text": "gn of strikes on oil infrastructure keeps\nRussia’s crude oil and oil product exports close to\ntheir 2026Q3 volumes. T ogether, these factors\nreduce global oil production to about 100 mb/d in\nthe first half of next year. Subsequently, the\ndisruptions gradually abate, with conditions\nreverting toward those in the baseline. These\nevents generate further rapid depletion of oil\nstocks early next year, increasing concerns about\ninventories becoming scarce. Under these\ncircumstances, the Brent oil pric",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 16
+        },
+        "score": 0.02976190476190476,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "refined oil product flows preconflict volumes",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 1.5020947456359863,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "answered"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1403,
+    "completion_tokens": 147,
+    "latency": 3.750171661376953,
+    "query_id": "q16",
+    "split": "test"
+  },
+  {
+    "question": "How did the 2027 commodity price forecast differ from the 2026 forecast?",
+    "status": "answered",
+    "answer": "The World Bank Group’s commodity price index is forecast to increase by 23 percent in 2026, reaching its second-highest level since 2013. In 2027, prices are projected to retreat by 7 percent [cmo-october-2026-p12-fixed-0007]. Energy prices are set to increase by 32 percent in 2026, then retreat by 12 percent in 2027. Compared to the April forecasts, projected energy prices have been revised higher by 7 percent for 2026 and 14 percent for 2027 [cmo-october-2026-p12-fixed-0007]. Overall, commodity prices are forecast to decline by 7 percent in 2027, with Brent oil receding to $79 per barrel, although food commodity prices are anticipated to climb another 7 percent [cmo-october-2026-p70-fixed-0001].",
+    "citations": [
+      "cmo-october-2026-p12-fixed-0007",
+      "cmo-october-2026-p12-fixed-0007",
+      "cmo-october-2026-p70-fixed-0001"
+    ],
+    "all_cited": [
+      "cmo-october-2026-p12-fixed-0007",
+      "cmo-october-2026-p12-fixed-0007",
+      "cmo-october-2026-p70-fixed-0001"
+    ],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p16-fixed-0008",
+        "chunk_id": "cmo-october-2026-p16-fixed-0008",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 16,
+        "text": "changes. Data are from the IEA’s\nOil Market Report (October 2026 edition).\nB. Dashed blue line indicates baseline forecast for 2026–27 for Brent crude oil price; red line\nrepresents the 2027 forecast in the adverse scenario.\nC. Bars show the percentage difference in 2027 for the food price index and sub-indexes under the\nadverse scenario compared with the baseline forecast.\nD. Bars show coefficients from individual OLS regressions of commodity prices on coincident global\nindustrial production an",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 16
+        },
+        "score": 0.031544957774465976,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p70-fixed-0001",
+        "chunk_id": "cmo-october-2026-p70-fixed-0001",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 70,
+        "text": ", with Brent oil\naveraging $91 per barrel. Food commodity prices are projected to rise\n10 percent in 2026, while average metal prices are on track to reach\nan all-time high. In 2027, commodity prices are forecast to decline by\n7 percent overall, with Brent oil receding to $79 per barrel, although\nfood commodity prices are anticipated to climb another 7 percent.\nThe forecast assumes no major escalation of the Middle East conflict,\neasing constraints on commodity exports from Russia and Ukraine,\na",
+        "metadata": {
+          "year": 2026,
+          "section": "Special Focus",
+          "has_text": true,
+          "physical_page": 70
+        },
+        "score": 0.03125,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p12-fixed-0007",
+        "chunk_id": "cmo-october-2026-p12-fixed-0007",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 12,
+        "text": "d to remain robust. On\nthis basis, the World Bank Group’s commodity\nprice index is forecast to increase by 23 percent in\n2026 (y/y), reaching its second-highest level since\n2013, before prices retreat by 7 percent in 2027\n(figure 4.A; table 1).1\nEnergy\nIn the baseline, energy prices are set to increase by\n32 percent (y/y) this year, then retreat by 12\npercent in 2027. Relative to the April forecasts,\nprojected energy prices have been revised higher\nby 7 percent for 2026 and 14 percent for 2027,\n",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 12
+        },
+        "score": 0.02857142857142857,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p20-fixed-0006",
+        "chunk_id": "cmo-october-2026-p20-fixed-0006",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 20,
+        "text": "60\nTABLE 1 Commodity prices\nOctober 2026 forecasts\n(percent change from\nprevious year)\nApril 2026 forecasts\n(indexes)\nOctober 2026 forecasts\n(percent change from\nprevious year)\nApril 2026 forecasts\n(prices)",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 20
+        },
+        "score": 0.01639344262295082,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "2027 commodity price forecast vs 2026 forecast",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 0.9618887901306152,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "answered"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1415,
+    "completion_tokens": 259,
+    "latency": 3.6101648807525635,
+    "query_id": "q17",
+    "split": "test"
+  },
+  {
+    "question": "What could cause oil prices to average 105 dollars per barrel in 2027?",
+    "status": "abstain",
+    "answer": "The provided document does not contain information suggesting that oil prices will average $105 per barrel in 2027. Instead, it forecasts Brent oil prices to recede to $79 per barrel in 2027 [cmo-october-2026-p70-fixed-0001].",
+    "citations": [
+      "cmo-october-2026-p70-fixed-0001"
+    ],
+    "all_cited": [
+      "cmo-october-2026-p70-fixed-0001"
+    ],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p22-fixed-0003",
+        "chunk_id": "cmo-october-2026-p22-fixed-0003",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 22,
+        "text": "ercent) in 2026. Although lower oil consumption is on course to offset about half of the\nreduction in supplies, a large drawdown of oil inventories has left the world less prepared for future disruptions.\nAgainst this backdrop, global energy prices are expected to rise by 32 percent in 2026, with Brent oil prices\naveraging $91 per barrel. Shortages of some refined fuels have become acute: average U.S. diesel prices reached\nrecord levels in October. Amid depleted liquefied natural gas (LNG) shipm",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 22
+        },
+        "score": 0.03128054740957967,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p70-fixed-0001",
+        "chunk_id": "cmo-october-2026-p70-fixed-0001",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 70,
+        "text": ", with Brent oil\naveraging $91 per barrel. Food commodity prices are projected to rise\n10 percent in 2026, while average metal prices are on track to reach\nan all-time high. In 2027, commodity prices are forecast to decline by\n7 percent overall, with Brent oil receding to $79 per barrel, although\nfood commodity prices are anticipated to climb another 7 percent.\nThe forecast assumes no major escalation of the Middle East conflict,\neasing constraints on commodity exports from Russia and Ukraine,\na",
+        "metadata": {
+          "year": 2026,
+          "section": "Special Focus",
+          "has_text": true,
+          "physical_page": 70
+        },
+        "score": 0.03057889822595705,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p22-fixed-0000",
+        "chunk_id": "cmo-october-2026-p22-fixed-0000",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 22,
+        "text": "ENERGY COMMODITY MARKETS OUTLOOK | OCTOBER 2026\n14\nOil\nRecent developments\nIn mid-October, front-month Brent futures\nreached about $110 per barrel (bbl) as markets\nweighed rising crude supply and an accelerated\nrelease of emergency oil stockpiles by International\nEnergy Agency (IEA) members against conflict in\nthe Middle East (figure 7.A). Entering October,\naverage Middle East oil exports approached their\n2025 level owing to greater use of ship-to-ship\ntransfers and untracked shipments (figure 7",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 22
+        },
+        "score": 0.028991596638655463,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p9-fixed-0007",
+        "chunk_id": "cmo-october-2026-p9-fixed-0007",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 9,
+        "text": "ecast to remain\nelevated in the near term, averaging $91 per barrel for the year. Oil prices would be higher still if oil demand\nwere not set to fall 2.5 percent this year, the third-largest drop behind the COVID-19 pandemic in 2020 and\nthe oil crisis in 1980. Food commodity prices are on track to climb by 10 percent in 2026, well above the April\nforecast. Metal and minerals prices are projected to reach an all-time high. In 2027, commodity prices are\nforecast to decline by 7 percent, with Brent",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 9
+        },
+        "score": 0.028985507246376812,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "oil prices average 105 dollars per barrel 2027",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 0.870311975479126,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "abstain"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1447,
+    "completion_tokens": 99,
+    "latency": 3.146752119064331,
+    "query_id": "q18",
+    "split": "test"
+  },
+  {
+    "question": "In the Executive Summary, what was the projected global oil supply decline in 2026?",
+    "status": "answered",
+    "answer": "Global oil supply is projected to fall by 5.5 million barrels per day (5.2 percent) in 2026, which would be the largest decline in over four decades, excluding the 2020 global pandemic [cmo-october-2026-p13-fixed-0001].",
+    "citations": [
+      "cmo-october-2026-p13-fixed-0001"
+    ],
+    "all_cited": [
+      "cmo-october-2026-p13-fixed-0001"
+    ],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p10-fixed-0000",
+        "chunk_id": "cmo-october-2026-p10-fixed-0000",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 10,
+        "text": "EXECUTIVE SUMMARY COMMODITY MARKETS OUTLOOK | OCTOBER 2026\n2\nFIGURE 1 Developments in oil markets\nGlobal oil production losses have moderated since the outset of the\nconflict in the Middle East but remain significant. Global observed oil\ninventories have declined by about 2.4 million barrels a day since the\nconflict began, helping to buffer a persistent production deficit. Increases in\nU.S. oil exports played an important role in balancing the global oil market\nearlier this year, although a shar",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 10
+        },
+        "score": 0.03177805800756621,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p12-fixed-0009",
+        "chunk_id": "cmo-october-2026-p12-fixed-0009",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 12,
+        "text": "m the Gulf is assumed to\nprove durable overall, allowing global oil\nproduction to near its 2025 level in 2027. Rising\ncrude supplies are expected to ease market\ntightness, supporting a decline in prices to an\naverage of $79/bbl next year.\nGlobal oil consumption is anticipated to contract\nby 2.6 mb/d (2.5 percent) in 2026, the third-\nlargest decline on record, after the pandemic year\nof 2020 and the oil market turmoil of 1980.\nLower oil consumption this year reflects\n1 Commodity price baseline fo",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 12
+        },
+        "score": 0.030679156908665108,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p13-fixed-0001",
+        "chunk_id": "cmo-october-2026-p13-fixed-0001",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 13,
+        "text": "nd policy-induced shifts away from oil\nare likely to leave a lasting imprint, reducing the\noil intensity of economic activity. In 2027, after\nmultiple large shocks this decade, global oil\nconsumption is expected to lag its 2010–19\ntrajectory by more than 9 percent, roughly double\nthe comparable anticipated shortfall in global\neconomic output (figure 4.B).\nGlobal oil supply is projected to fall by 5.5 mb/d\n(5.2 percent) in 2026, the largest decline in more\nthan four decades outside the 2020 globa",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 13
+        },
+        "score": 0.030117753623188408,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p25-fixed-0000",
+        "chunk_id": "cmo-october-2026-p25-fixed-0000",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 25,
+        "text": "ENERGYCOMMODITY MARKETS OUTLOOK | OCTOBER 2026\n17\non ship-to-ship transfers constrain shipments.\nMeanwhile, demand to replenish depleted\ninventories will support prices. T ogether, these\nfactors are expected to slow the overall decline in\noil prices, which may be volatile month-to-month\nand could be interrupted by intermittent\nescalations or concerns about further hostilities.\nGlobal oil consumption is projected to contract by\n2.6 mb/d (2.5 percent) in 2026—the third-largest\nannual decline on re",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 25
+        },
+        "score": 0.028665028665028666,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "global oil supply decline 2026 Executive Summary",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 0.8795220851898193,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "answered"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1466,
+    "completion_tokens": 97,
+    "latency": 2.912436008453369,
+    "query_id": "q19",
+    "split": "test"
+  },
+  {
+    "question": "In the Executive Summary, what was the expected overall impact of El Nino on global food commodity prices?",
+    "status": "answered",
+    "answer": "The Executive Summary indicates that an exceptional El Niño could lead to severe weather events, such as flooding and droughts, in unexpected areas. These events could negatively impact growing conditions for commodities like rice, palm and coconut oil, soybeans, cocoa, and coffee, potentially causing a significant increase in the prices of beverages, oils, and other related products [cmo-october-2026-p16-fixed-0000]. While the overall effect on aggregate global food commodity price indexes is expected to be moderate, the impact on individual commodities could be substantial [cmo-october-2026-p43-fixed-0003]. Additionally, higher energy prices, increased biofuel production, and disruptions to grain shipments could further contribute to rising food prices [cmo-october-2026-p17-fixed-0000].",
+    "citations": [
+      "cmo-october-2026-p16-fixed-0000",
+      "cmo-october-2026-p43-fixed-0003",
+      "cmo-october-2026-p17-fixed-0000"
+    ],
+    "all_cited": [
+      "cmo-october-2026-p16-fixed-0000",
+      "cmo-october-2026-p43-fixed-0003",
+      "cmo-october-2026-p17-fixed-0000"
+    ],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p45-fixed-0003",
+        "chunk_id": "cmo-october-2026-p45-fixed-0003",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 45,
+        "text": "world\nfood prices stable. By contrast, prices rose in 1983,\nwhen depleted inventories coincided with a rebound in\ndemand following the 1982 global recession. The\nempirical literature generally finds modest effects of El\nNiño on aggregate commodity prices and larger\nimpacts on tropical agricultural products.d\nPotential implications of the current El Niño\nepisode\nThe World Bank Group’s food commodity price index\nis forecast to rise by 10 percent in 2026 and a further 7\npercent in 2027, representin",
+        "metadata": {
+          "year": 2026,
+          "section": "Agriculture",
+          "has_text": true,
+          "physical_page": 45
+        },
+        "score": 0.029957522915269395,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p16-fixed-0000",
+        "chunk_id": "cmo-october-2026-p16-fixed-0000",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 16,
+        "text": "EXECUTIVE SUMMARY COMMODITY MARKETS OUTLOOK | OCTOBER 2026\n8\ncould be an inaccurate guide to the scale of\nforthcoming disruptions, such that the baseline\nfood commodity forecasts prove too sanguine. An\nexceptional El Niño could result in weather events\nof extreme severity in unexpected locations, with\nflooding and droughts undermining growing\nconditions for commodities including rice, palm\nand coconut oil, soybeans, cocoa, and coffee. This\ncould significantly lift prices of beverages, oils and\nm",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 16
+        },
+        "score": 0.029726775956284153,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p17-fixed-0000",
+        "chunk_id": "cmo-october-2026-p17-fixed-0000",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 17,
+        "text": "EXECUTIVE SUMMARYCOMMODITY MARKETS OUTLOOK | OCTOBER 2026\n9\nIn food commodity markets, the effects of El Niño\nprove highly damaging for some crop harvests. At\nthe same time, higher-than-forecast energy prices\nlift food input costs and induce greater biofuel\nproduction, strengthening substitution-related\ncrop demand and raising food prices. In addition,\ncontinued hostilities disrupt grain shipments from\nRussia and Ukraine in the first half of 2027. The\nscale is comparable to export reductions in\n",
+        "metadata": {
+          "year": 2026,
+          "section": "Executive Summary",
+          "has_text": true,
+          "physical_page": 17
+        },
+        "score": 0.029437229437229435,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p43-fixed-0003",
+        "chunk_id": "cmo-october-2026-p43-fixed-0003",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 43,
+        "text": "ed\ncommodities.\nBOX 1 The 2026-27 El Niño: Implications for commodity markets\nEl Niño, a major recurring source of global weather variability, alters rainfall and temperature patterns over a large\ngeographical area, with consequences for commodity markets. The current episode, expected to reach very strong intensity\nand persist into early 2027, is likely to have a moderate effect on aggregate global food commodity price indexes, but could\nsubstantially affect individual commodities. The largest ",
+        "metadata": {
+          "year": 2026,
+          "section": "Agriculture",
+          "has_text": true,
+          "physical_page": 43
+        },
+        "score": 0.01639344262295082,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "El Nino impact on global food commodity prices Executive Summary",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 0.8937513828277588,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "answered"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1394,
+    "completion_tokens": 207,
+    "latency": 3.349463701248169,
+    "query_id": "q20",
+    "split": "test"
+  },
+  {
+    "question": "By what exact percentage was Brazil's soybean harvest projected to contract due to regional drought in 2026?",
+    "status": "abstain",
+    "answer": "The provided document does not contain information about the exact percentage of Brazil's soybean harvest projected to contract due to regional drought in 2026. It mentions production declines in Argentina, Brazil, the EU, and the United States, and a 20 percent fall in EU production due to drought, but does not specify a percentage for Brazil [cmo-october-2026-p36-fixed-0000].",
+    "citations": [
+      "cmo-october-2026-p36-fixed-0000"
+    ],
+    "all_cited": [
+      "cmo-october-2026-p36-fixed-0000"
+    ],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p36-fixed-0000",
+        "chunk_id": "cmo-october-2026-p36-fixed-0000",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 36,
+        "text": "AGRICULTURE COMMODITY MARKETS OUTLOOK | OCTOBER 2026\n28\ndeclines in Argentina, Brazil, the European Union\n(EU), and the United States. Production in the\nEU is set to fall by 20 percent, to the lowest level\nin nearly two decades, reflecting persistent\nsummer heat and drought conditions that reduced\nboth acreage and yields.\nRice prices are projected to rise by 10 percent in\n2026 and a further 12 percent in 2027, before\ndeclining by 6 percent in 2028. The increases\nreflect an expected 2 percent dec",
+        "metadata": {
+          "year": 2026,
+          "section": "Agriculture",
+          "has_text": true,
+          "physical_page": 36
+        },
+        "score": 0.032266458495966696,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p35-fixed-0010",
+        "chunk_id": "cmo-october-2026-p35-fixed-0010",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 35,
+        "text": "-19\n2020-21\n2022-23\n2024-25\n2026-27\nRice Maize WheatRatio\n-3\n0\n3\n6\n9\n12\n15\n2010-11\n2012-13\n2014-15\n2016-17\n2018-19\n2020-21\n2022-23\n2024-25\n2026-27\n1990–2025 average\nmmt, annual change\n0\n10\n20\n30\n40\n2010-11\n2012-13\n2014-15\n2016-17\n2018-19\n2020-21\n2022-23\n2024-25\n2026-27\nSoybean, oil\nSoybean, meal\nSoybean, oilseed\nRatio\n-100\n-50\n0\n50\n100\n150\n200\n250\n2010-11\n2012-13\n2014-15\n2016-17\n2018-19\n2020-21\n2022-23\n2024-25\n2026-27\n1990–2025 average\nmmt, annual change",
+        "metadata": {
+          "year": 2026,
+          "section": "Agriculture",
+          "has_text": true,
+          "physical_page": 35
+        },
+        "score": 0.031009615384615385,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p36-fixed-0004",
+        "chunk_id": "cmo-october-2026-p36-fixed-0004",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 36,
+        "text": "re falling 5 percent in 2028.\nExpanded acreage and trend yield growth\nunderpin a projected 2 percent increase in global\noutput in 2026–27, a sixth consecutive record.\nHowever, consumption is projected to grow even\nfaster, implying the global stocks-to-use ratio will\ndecline for a second straight year. U.S. biofuel use\nis expected to exceed half of domestic soybean oil\nconsumption for the first time, supporting a surge\nin soybean oil prices of 39 percent in 2026 and 11\npercent in 2027, before ret",
+        "metadata": {
+          "year": 2026,
+          "section": "Agriculture",
+          "has_text": true,
+          "physical_page": 36
+        },
+        "score": 0.02871794871794872,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p35-fixed-0004",
+        "chunk_id": "cmo-october-2026-p35-fixed-0004",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 35,
+        "text": " rise by 10 percent in\n2026 and 5 percent in 2027, before declining by\n10 percent in 2028. The increases reflect an\nanticipated 3 percent decline in global production\nin 2026–27. The forecast assumes some easing in\n2027 of the constraints on Black Sea trade created\nthis year by attacks on grain shipments and port\ninfrastructure. Projected output gains of 11\npercent in Russia and 8 percent in Ukraine in\n2026–27 are expected to partly offset harvest\nFIGURE 13 Supply conditions for grains and edibl",
+        "metadata": {
+          "year": 2026,
+          "section": "Agriculture",
+          "has_text": true,
+          "physical_page": 35
+        },
+        "score": 0.028404512489927477,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Brazil soybean harvest contraction 2026 drought percentage",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 0.9183142185211182,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "abstain"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1795,
+    "completion_tokens": 118,
+    "latency": 3.0629358291625977,
+    "query_id": "q_unans_test_1",
+    "split": "test"
+  },
+  {
+    "question": "What was the revised official OPEC crude oil output quota for member nations announced in August 2026?",
+    "status": "abstain",
+    "answer": "The provided document does not contain information about a revised official OPEC crude oil output quota for member nations announced in August 2026. Therefore, there is insufficient evidence to answer the question.",
+    "citations": [],
+    "all_cited": [],
+    "context_chunks": [
+      {
+        "id": "cmo-october-2026-p26-fixed-0001",
+        "chunk_id": "cmo-october-2026-p26-fixed-0001",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 26,
+        "text": "roduct shortages beyond the\neffects of the 0.8 mb/d decline in Russia’s product\nexports in 2026Q3, and intensify diesel shortages\nwhile Gulf supplies remain constrained (figure\n9.B). Moreover, with oil inventories already\nsubstantially depleted, even modest additional\nsupply shortfalls could tighten markets abruptly\nand drive sharp increases in crude oil and oil\nproduct prices.\nUpside risk: More restrictive OPEC+ production\npolicy\nOPEC+ may restore output more cautiously than\nassumed in the base",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 26
+        },
+        "score": 0.03252247488101534,
+        "rank": 1
+      },
+      {
+        "id": "cmo-october-2026-p25-fixed-0004",
+        "chunk_id": "cmo-october-2026-p25-fixed-0004",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 25,
+        "text": "cted to return\ngradually to its 2026Q2 level, following recent\ndeclines, while output in Argentina, Brazil,\nCanada, Guyana, and the United States is\nexpected to increase by more than 1 mb/d (y/y).\nSupply is projected to expand further in 2028, as\nOPEC+ producers align closely with output\nquotas and production outside the group,\nincluding in the United Arab Emirates, continues\nto rise.\nRecovering supply and seasonally weaker demand\nare expected to move the oil market from broadly\nbalanced in 2027",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 25
+        },
+        "score": 0.032266458495966696,
+        "rank": 2
+      },
+      {
+        "id": "cmo-october-2026-p27-fixed-0001",
+        "chunk_id": "cmo-october-2026-p27-fixed-0001",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 27,
+        "text": " of July—shows how quickly pent-up\nsupply could reach the market.\nDownside risk: Higher-than-expected\nnon-OPEC+ supply\nOutput in Argentina, Brazil, Canada, Guyana, and\nthe United States is projected to rise by 1.5 mb/d\nin 2026 and a further 1 mb/d in 2027, a\nslowdown from average production growth in\n2022-25. But faster growth than expected is\npossible, particularly if new oilfield developments\nin Argentina, Brazil, and Guyana come on stream\nearlier or ramp up faster than expected. U.S.\nproducti",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 27
+        },
+        "score": 0.03036576949620428,
+        "rank": 3
+      },
+      {
+        "id": "cmo-october-2026-p25-fixed-0009",
+        "chunk_id": "cmo-october-2026-p25-fixed-0009",
+        "source_id": "cmo-october-2026",
+        "source": "data/raw/CMO-October-2026.pdf",
+        "page": 25,
+        "text": "inventories. Conversely, a faster\nrestoration of Gulf supply and more robust\nexpansion of non-OPEC+ output than assumed\ncould push prices below the baseline, as could",
+        "metadata": {
+          "year": 2026,
+          "section": "Energy",
+          "has_text": true,
+          "physical_page": 25
+        },
+        "score": 0.016129032258064516,
+        "rank": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "OPEC crude oil output quota August 2026",
+        "hits_count": 4,
+        "newly_added": 4,
+        "latency": 0.8197529315948486,
+        "turn": 1
+      },
+      {
+        "event": "answer",
+        "turn": 2,
+        "status": "abstain"
+      }
+    ],
+    "turns": 2,
+    "prompt_tokens": 1384,
+    "completion_tokens": 65,
+    "latency": 4.544613838195801,
+    "query_id": "q_unans_test_2",
+    "split": "test"
+  }
+]
