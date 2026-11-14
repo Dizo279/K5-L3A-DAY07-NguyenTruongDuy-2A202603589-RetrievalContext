@@ -1,0 +1,297 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "To what level did refined oil product flows from the Gulf region fall in September compared with preconflict levels?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 9,
+        "evidence": "flows of refined oil products from the region have remained depressed amid damage to refineries, at less than half of preconflict levels in September."
+      }
+    ],
+    "expected_answer": "They fell to less than half of preconflict levels.",
+    "filter": {}
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "About how high did Brent crude prices reach in mid-October?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 9,
+        "evidence": "Brent crude prices reached about $110 per barrel ($/bbl) in mid-October."
+      }
+    ],
+    "expected_answer": "About 110 dollars per barrel.",
+    "filter": {}
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "At what average rate were global oil inventories drawn down from March to September?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 9,
+        "evidence": "Global observed oil inventories were drawn down at an average rate of about 2.4 million barrels a day (mb/d) from March to September."
+      }
+    ],
+    "expected_answer": "About 2.4 million barrels a day.",
+    "filter": {}
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "By how much did global commodity prices project to increase in 2026?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 9,
+        "evidence": "Overall, commodity prices are projected to increase by 23 percent in 2026."
+      }
+    ],
+    "expected_answer": "They were projected to increase by 23 percent.",
+    "filter": {}
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What was the forecast average Brent oil price for 2026?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 9,
+        "evidence": "Brent oil prices are forecast to remain elevated in the near term, averaging $91 per barrel for the year."
+      }
+    ],
+    "expected_answer": "91 dollars per barrel.",
+    "filter": {}
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What factors does the report identify as moderating forces behind the 2027 commodity price forecast?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 10,
+        "evidence": "The forecast hinges on a confluence of moderating factors: no major escalation of the Middle East conflict, a recovery in Russia's oil output, easing constraints on Black Sea food shipments, and manageable crop losses from El Nino."
+      }
+    ],
+    "expected_answer": "No major Middle East escalation, recovery of Russia's oil output, easing Black Sea food-shipment constraints, and manageable crop losses from El Nino.",
+    "filter": {}
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What is the baseline assumption about the intensification of hostilities in the Middle East?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "The baseline commodity price forecast assumes no major intensification of hostilities in the Middle East."
+      }
+    ],
+    "expected_answer": "The baseline assumes no major intensification.",
+    "filter": {}
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "How were global commodity prices forecast to change in 2026 and 2027?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "the commodity price index is forecast to increase by 23 percent in 2026 (y/y), reaching its second-highest level since 2013, before prices retreat by 7 percent in 2027"
+      }
+    ],
+    "expected_answer": "Increase by 23 percent in 2026, then retreat by 7 percent in 2027.",
+    "filter": {}
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "By how much were energy prices expected to increase in 2026 and change in 2027?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "energy prices are set to increase by 32 percent (y/y) this year, then retreat by 12 percent in 2027."
+      }
+    ],
+    "expected_answer": "Increase by 32 percent in 2026 and retreat by 12 percent in 2027.",
+    "filter": {}
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What is the projected average Brent price in 2026Q4?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "The Brent oil price is projected to average almost $100/bbl in 2026Q4."
+      }
+    ],
+    "expected_answer": "Almost 100 dollars per barrel.",
+    "filter": {}
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What was the projected decline in global oil consumption in 2026?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 13,
+        "evidence": "oil demand were not set to fall 2.5 percent this year"
+      }
+    ],
+    "expected_answer": "A 2.5 percent decline.",
+    "filter": {}
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Why are global commodity prices expected to remain high for some base metals?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 13,
+        "evidence": "Strong demand from the energy transition and data centers is likely to help sustain a high-price regime for base metals."
+      }
+    ],
+    "expected_answer": "Demand from the energy transition and data centers is expected to sustain a high-price regime.",
+    "filter": {}
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "In the Executive Summary, what was the expected change in energy prices in 2027?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "energy prices are set to increase by 32 percent (y/y) this year, then retreat by 12 percent in 2027."
+      }
+    ],
+    "expected_answer": "Energy prices were expected to retreat by 12 percent in 2027.",
+    "filter": {
+      "section": "Executive Summary",
+      "year": 2026
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the Executive Summary, by how much were the 2027 rice and sugar price forecasts revised upward?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 14,
+        "evidence": "2027 price forecasts have been revised up by 21 percent and 12 percent, respectively."
+      }
+    ],
+    "expected_answer": "Rice was revised up by 21 percent and sugar by 12 percent.",
+    "filter": {
+      "section": "Executive Summary",
+      "year": 2026
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the Executive Summary, what does commodity market connectedness measure?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "The degree to which commodity price volatility can be explained by shocks to other commodity prices (commodity market connectedness) varies over time."
+      }
+    ],
+    "expected_answer": "It measures how much price volatility in commodities can be explained by shocks to other commodity prices.",
+    "filter": {
+      "section": "Executive Summary",
+      "year": 2026
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What happened to refined oil product flows despite crude oil exports being close to preconflict volumes?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 9,
+        "evidence": "Nonetheless, flows of refined oil products from the region have remained depressed amid damage to refineries, at less than half of preconflict levels in September."
+      }
+    ],
+    "expected_answer": "Refined product flows remained depressed and were less than half of preconflict levels in September.",
+    "filter": {}
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How did the 2027 commodity price forecast differ from the 2026 forecast?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 12,
+        "evidence": "the commodity price index is forecast to increase by 23 percent in 2026 (y/y) ... before prices retreat by 7 percent in 2027."
+      }
+    ],
+    "expected_answer": "Prices were expected to decline 7 percent in 2027 after rising 23 percent in 2026.",
+    "filter": {}
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What could cause oil prices to average 105 dollars per barrel in 2027?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 10,
+        "evidence": "In an adverse scenario, oil prices would average $105 per barrel in 2027."
+      }
+    ],
+    "expected_answer": "An adverse scenario involving setbacks to the moderating factors could cause that outcome.",
+    "filter": {}
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "In the Executive Summary, what was the projected global oil supply decline in 2026?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 13,
+        "evidence": "Global oil supply is projected to fall by 5.5 mb/d (5.2 percent) in 2026."
+      }
+    ],
+    "expected_answer": "Global oil supply was projected to fall by 5.5 million barrels per day, or 5.2 percent.",
+    "filter": {
+      "section": "Executive Summary",
+      "year": 2026
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In the Executive Summary, what was the expected overall impact of El Nino on global food commodity prices?",
+    "gold": [
+      {
+        "source_id": "cmo-october-2026",
+        "page": 14,
+        "evidence": "the overall impact of El Nino on food commodity prices is expected to be manageable"
+      }
+    ],
+    "expected_answer": "The overall impact was expected to be manageable, although specific locations could experience price spikes.",
+    "filter": {
+      "section": "Executive Summary",
+      "year": 2026
+    }
+  }
+]
