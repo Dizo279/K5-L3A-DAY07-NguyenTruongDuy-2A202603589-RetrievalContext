@@ -1,0 +1,32 @@
+[
+  {
+    "configuration": "Baseline (Dense top_k=3, budget=1000)",
+    "split": "dev",
+    "total_questions": 15,
+    "hit_at_1": "5/15 (33.3%)",
+    "hit_at_3": "7/15 (46.7%)",
+    "context_evidence_rate": "5/15 (33.3%)",
+    "total_time_seconds": 15.82,
+    "avg_latency_seconds": 1.055
+  },
+  {
+    "configuration": "Cải thiện 1 (Hybrid RRF top_k=5, budget=1500)",
+    "split": "dev",
+    "total_questions": 15,
+    "hit_at_1": "5/15 (33.3%)",
+    "hit_at_3": "9/15 (60.0%)",
+    "context_evidence_rate": "6/15 (40.0%)",
+    "total_time_seconds": 15.3,
+    "avg_latency_seconds": 1.02
+  },
+  {
+    "configuration": "Cải thiện 2 (Hybrid RRF top_k=5 + Budget 2000)",
+    "split": "dev",
+    "total_questions": 15,
+    "hit_at_1": "5/15 (33.3%)",
+    "hit_at_3": "9/15 (60.0%)",
+    "context_evidence_rate": "9/15 (60.0%)",
+    "total_time_seconds": 16.65,
+    "avg_latency_seconds": 1.11
+  }
+]

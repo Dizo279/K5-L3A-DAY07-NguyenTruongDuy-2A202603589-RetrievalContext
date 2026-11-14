@@ -1,0 +1,392 @@
+[
+  {
+    "question_id": "q01",
+    "question": "To what level did refined oil product flows from the Gulf region fall in September compared with preconflict levels?",
+    "split": "dev",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.047518253326416,
+    "results": [
+      {
+        "id": "cmo-october-2026-p9-fixed-0001",
+        "page": 9,
+        "score": 0.03278688524590164
+      },
+      {
+        "id": "cmo-october-2026-p13-fixed-0003",
+        "page": 13,
+        "score": 0.03076923076923077
+      },
+      {
+        "id": "cmo-october-2026-p22-fixed-0008",
+        "page": 22,
+        "score": 0.030158730158730156
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "question": "About how high did Brent crude prices reach in mid-October?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.0640308856964111,
+    "results": [
+      {
+        "id": "cmo-october-2026-p23-fixed-0005",
+        "page": 23,
+        "score": 0.03252247488101534
+      },
+      {
+        "id": "cmo-october-2026-p9-fixed-0002",
+        "page": 9,
+        "score": 0.03200204813108039
+      },
+      {
+        "id": "cmo-october-2026-p22-fixed-0000",
+        "page": 22,
+        "score": 0.03149801587301587
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "question": "At what average rate were global oil inventories drawn down from March to September?",
+    "split": "dev",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.186657190322876,
+    "results": [
+      {
+        "id": "cmo-october-2026-p9-fixed-0002",
+        "page": 9,
+        "score": 0.03278688524590164
+      },
+      {
+        "id": "cmo-october-2026-p22-fixed-0008",
+        "page": 22,
+        "score": 0.031754032258064516
+      },
+      {
+        "id": "cmo-october-2026-p24-fixed-0001",
+        "page": 24,
+        "score": 0.03125763125763126
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "question": "By how much did global commodity prices project to increase in 2026?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.1053714752197266,
+    "results": [
+      {
+        "id": "cmo-october-2026-p13-fixed-0005",
+        "page": 13,
+        "score": 0.032018442622950824
+      },
+      {
+        "id": "cmo-october-2026-p12-fixed-0007",
+        "page": 12,
+        "score": 0.03021353930031804
+      },
+      {
+        "id": "cmo-october-2026-p9-fixed-0006",
+        "page": 9,
+        "score": 0.028985507246376812
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "question": "What was the forecast average Brent oil price for 2026?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "context_evidence": false,
+    "latency": 0.9696962833404541,
+    "results": [
+      {
+        "id": "cmo-october-2026-p12-fixed-0008",
+        "page": 12,
+        "score": 0.03252247488101534
+      },
+      {
+        "id": "cmo-october-2026-p26-fixed-0005",
+        "page": 26,
+        "score": 0.0315136476426799
+      },
+      {
+        "id": "cmo-october-2026-p70-fixed-0001",
+        "page": 70,
+        "score": 0.030798389007344232
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "question": "What factors does the report identify as moderating forces behind the 2027 commodity price forecast?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "context_evidence": false,
+    "latency": 1.0765037536621094,
+    "results": [
+      {
+        "id": "cmo-october-2026-p70-fixed-0003",
+        "page": 70,
+        "score": 0.029631255487269532
+      },
+      {
+        "id": "cmo-october-2026-p70-fixed-0002",
+        "page": 70,
+        "score": 0.026356857985087564
+      },
+      {
+        "id": "cmo-october-2026-p45-fixed-0004",
+        "page": 45,
+        "score": 0.01639344262295082
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "question": "What is the baseline assumption about the intensification of hostilities in the Middle East?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "context_evidence": false,
+    "latency": 1.2299225330352783,
+    "results": [
+      {
+        "id": "cmo-october-2026-p27-fixed-0005",
+        "page": 27,
+        "score": 0.032018442622950824
+      },
+      {
+        "id": "cmo-october-2026-p16-fixed-0002",
+        "page": 16,
+        "score": 0.03200204813108039
+      },
+      {
+        "id": "cmo-october-2026-p29-fixed-0003",
+        "page": 29,
+        "score": 0.03200204813108039
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "question": "How were global commodity prices forecast to change in 2026 and 2027?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "context_evidence": false,
+    "latency": 1.001617193222046,
+    "results": [
+      {
+        "id": "cmo-october-2026-p20-fixed-0006",
+        "page": 20,
+        "score": 0.030776515151515152
+      },
+      {
+        "id": "cmo-october-2026-p70-fixed-0001",
+        "page": 70,
+        "score": 0.0304147465437788
+      },
+      {
+        "id": "cmo-october-2026-p16-fixed-0008",
+        "page": 16,
+        "score": 0.029418126757516764
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "question": "By how much were energy prices expected to increase in 2026 and change in 2027?",
+    "split": "dev",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.066695213317871,
+    "results": [
+      {
+        "id": "cmo-october-2026-p12-fixed-0007",
+        "page": 12,
+        "score": 0.032266458495966696
+      },
+      {
+        "id": "cmo-october-2026-p14-fixed-0006",
+        "page": 14,
+        "score": 0.03225806451612903
+      },
+      {
+        "id": "cmo-october-2026-p29-fixed-0006",
+        "page": 29,
+        "score": 0.030536130536130537
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "question": "What is the projected average Brent price in 2026Q4?",
+    "split": "dev",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 0.9400761127471924,
+    "results": [
+      {
+        "id": "cmo-october-2026-p12-fixed-0008",
+        "page": 12,
+        "score": 0.03278688524590164
+      },
+      {
+        "id": "cmo-october-2026-p24-fixed-0002",
+        "page": 24,
+        "score": 0.03225806451612903
+      },
+      {
+        "id": "cmo-october-2026-p70-fixed-0001",
+        "page": 70,
+        "score": 0.02964426877470356
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "question": "What was the projected decline in global oil consumption in 2026?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "context_evidence": false,
+    "latency": 1.2199079990386963,
+    "results": [
+      {
+        "id": "cmo-october-2026-p13-fixed-0001",
+        "page": 13,
+        "score": 0.032018442622950824
+      },
+      {
+        "id": "cmo-october-2026-p12-fixed-0009",
+        "page": 12,
+        "score": 0.0315136476426799
+      },
+      {
+        "id": "cmo-october-2026-p25-fixed-0000",
+        "page": 25,
+        "score": 0.03149801587301587
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "question": "Why are global commodity prices expected to remain high for some base metals?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "context_evidence": false,
+    "latency": 1.1252081394195557,
+    "results": [
+      {
+        "id": "cmo-october-2026-p50-fixed-0007",
+        "page": 50,
+        "score": 0.03252247488101534
+      },
+      {
+        "id": "cmo-october-2026-p49-fixed-0007",
+        "page": 49,
+        "score": 0.03200204813108039
+      },
+      {
+        "id": "cmo-october-2026-p9-fixed-0006",
+        "page": 9,
+        "score": 0.03125763125763126
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "question": "In the Executive Summary, what was the expected change in energy prices in 2027?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.1633672714233398,
+    "results": [
+      {
+        "id": "cmo-october-2026-p17-fixed-0007",
+        "page": 17,
+        "score": 0.031009615384615385
+      },
+      {
+        "id": "cmo-october-2026-p16-fixed-0010",
+        "page": 16,
+        "score": 0.028958333333333336
+      },
+      {
+        "id": "cmo-october-2026-p12-fixed-0007",
+        "page": 12,
+        "score": 0.028850145288501453
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "question": "In the Executive Summary, by how much were the 2027 rice and sugar price forecasts revised upward?",
+    "split": "dev",
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 1.4750432968139648,
+    "results": [
+      {
+        "id": "cmo-october-2026-p14-fixed-0001",
+        "page": 14,
+        "score": 0.03278688524590164
+      },
+      {
+        "id": "cmo-october-2026-p16-fixed-0000",
+        "page": 16,
+        "score": 0.030834914611005692
+      },
+      {
+        "id": "cmo-october-2026-p14-fixed-0002",
+        "page": 14,
+        "score": 0.030621785881252923
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "question": "In the Executive Summary, what does commodity market connectedness measure?",
+    "split": "dev",
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "context_evidence": true,
+    "latency": 0.9735894203186035,
+    "results": [
+      {
+        "id": "cmo-october-2026-p12-fixed-0000",
+        "page": 12,
+        "score": 0.03278688524590164
+      },
+      {
+        "id": "cmo-october-2026-p11-fixed-0003",
+        "page": 11,
+        "score": 0.0304147465437788
+      },
+      {
+        "id": "cmo-october-2026-p6-fixed-0000",
+        "page": 6,
+        "score": 0.029571646010002173
+      }
+    ]
+  }
+]
